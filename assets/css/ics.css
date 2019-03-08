@@ -1,0 +1,45 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* begin ics */
+
+
+
+#icsDialog {font-size:13px;}
+#icsDialog ul{list-style:none;}
+#icsDialog li{margin-bottom: 10px; background: URL(../images/ics/arrow.png) top left no-repeat; padding-left: 15px;}
+#icsHeader {background:url(../images/ics/ics_header.gif) top left no-repeat; color:#404040; font-size:16px; padding-left: 80px; padding-top:10px; margin-bottom: 20px; height: 45px;}
+#icsOtherReason {width: 325px; height: 52px; margin-top:5px; border: 1px solid #c6c7cb; overflow:hidden; resize: none; /* needs to be after overflow */}
+#icsDoNotShow {float:left; width: 190px; margin-top:10px; color:#666666;}
+
+.icsDialog .ui-dialog-buttonpane {margin-right: 0px;}
+.icsDialog {background:none;}
+.icsDialog .ui-dialog-content {overflow:visible !important;}
+
+.icsDialog table {margin: 0 auto; width: 100%; }
+.icsDialog td{padding:0px;}
+.icsDialog .border {height: 30px; width: 30px; background: url(../images/ics/dialog.png) no-repeat;}
+.icsDialog .top-left { background-position: top left;}
+.icsDialog .top-center {width: auto; background-position: top center; padding-top: 3px;}
+.icsDialog .top-right {background-position: top right; text-align:left;}
+.icsDialog .center-left {height: auto; background-position: center left;}
+.icsDialog .center-center {background-color:#f4f4f4;}
+.icsDialog .center-center .icsDialog-title{border-bottom: 1px solid #cccccc; margin-bottom: 10px; text-align:center;}
+.icsDialog .center-right {height: auto; background-position: center right;}
+.icsDialog .bottom-left { background-position: bottom left;}
+.icsDialog .bottom-center {width: auto; background-position: bottom center;}
+.icsDialog .bottom-right {background-position: bottom right;}
+.icsDialog .ui-widget-content, .icsDialog .ui-dialog-titlebar {background: none; border: none;}
+.icsDialog .ul-dialog .ui-dialog-titlebar { padding: 0px; background-color:#ffffff;}
+
+.icsDialog {border: none;}
+
+.icsDialog .ui-dialog-titlebar-close {top:4px; height: 30px; width: 30px; padding:0px; margin:0px; background: url(../images/ics/dialog_close.png) bottom left no-repeat; background-position: none;}
+.icsDialog .top-right .ui-state-hover { background: url(../images/ics/dialog_close_hover.png) bottom left no-repeat !important; }
+
+.icsDialog .top-right .ui-icon {background: none; background-position: none;}
+.icsDialog .top-right .ui-state-hover {background: none; background-position: none; border: none; padding: none;}
+.icsDialog .top-right .ui-state-hover .ui-icon {background-image: none;  }
+.icsDialog .center-center .ui-dialog-buttonpane {text-align:center;}
+/* end ics */
+
